@@ -21,6 +21,7 @@ class MoviesController < ApplicationController
     render json: movies, each_serializer: MovieSummarySerializer
   end
 
+
   private
 
   def find_movie
